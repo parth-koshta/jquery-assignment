@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,
+	user-scalable=no">
+
+	<meta charset="UTF-8">
+	<title>Navbar Component</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+</head>
+<body>
+	<navbar class="navbar-container">
+		<a href="#" class="navbar-logo">Navbar</a>
+		<div class="nav-head">
+
+			<div class="hamburger-icon">
+				<a href="#" class="ham-icon"><i class="fa fa-bars"></i></a>
+			</div>
+
+			<div class="nav-items-div">
+				
+				<ul class="navbar-items">
+					<li class="nav-list"><a href="#" class="nav-item">Home</a></li>
+					<li class="nav-list"><a href="#" class="nav-item">Link</a></li>
+					<li class="dropdown-btn nav-list">
+						<a href="#" class="nav-item">Dropdown</a>
+						<a href="#"><img src="images/down-arrow.png" class="down-arrow"></a>
+						<ul class="dropdown-list">
+							<li class="dropdown-item"><a href="#" class="nav-item">Action</a></li>
+							<li class="dropdown-item"><a href="#" class="nav-item">Action</a></li>
+							<li class="dropdown-item"><a href="#" class="nav-item">Action</a></li>
+						</ul>
+					</li>
+					<li class="nav-list"><a href="#" class="nav-item disabled">Disabled</a></li>
+					<div class="search-section">
+						<li class="nav-list"><input type="search" name="search" placeholder="&nbsp Search" class="input-box"></li>
+						<li class="nav-list"><button type="submit" class="input-box-btn">Search</button></li>
+					</div>
+				</ul>
+				
+			</div>
+			
+		</div>
+		
+		
+	</navbar>
+
+
+
+
+
+	<script src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
